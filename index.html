@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
@@ -10,11 +10,26 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  Publish your podcasts everywhere.
-
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-  Request access
+  <div class="content-container">
+    <div id="logo-container">
+      <img src="./assets/desktop/logo.svg" alt="logo">
+    </div>
+    <div id="form-container">
+      <h2>Publish Your Podcasts</h2>
+      <p id="txt-where">Everywhere.</p>
+      <p id="txt-description">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+      <div class="external-platform-container">
+        <img src="./assets/desktop/spotify.svg" alt="spotify">
+        <img src="./assets/desktop/apple-podcast.svg" alt="apple podcast">
+        <img id="icon-googlepod" src="./assets/desktop/google-podcasts.svg" alt="google podcasts">
+        <img src="./assets/desktop/pocket-casts.svg" alt="pocket casts">
+      </div>
+      <div class="request-accesss-container">
+        <input type="email" name="email" id="email" placeholder="Email address">
+        <button>Request Access</button>
+      </div>
+    </div>
+  </div>
+  <div id="bg-pattern-dots"></div>
 </body>
 </html>
