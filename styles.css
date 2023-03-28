@@ -223,10 +223,27 @@ body {
 @media only screen and (min-width: 992px) {
     body {
         background-image: url(./assets/desktop/image-host.jpg);
+        background-position: center right;
+        background-size: 50%;
+    }
+
+    .content-container {
+        padding: 5.5%;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .content-container #form-container {
+        margin: 0;
+        padding: 6% 2% 6% 0;
+        width: 64%;
     }
 
     #bg-pattern-dots {
         max-width: 232px;
         height: 104px;
+        left: unset;
+        right: 0%;
+        bottom: 5.5%;
     }
 }
